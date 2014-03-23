@@ -8,6 +8,7 @@ current data layout
 
 gamebook
 * author (MtM)
+* synopsis
 * page count
 * pages
 * date published
