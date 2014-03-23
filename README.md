@@ -7,33 +7,33 @@ current data layout
 -------------------
 
 gamebook
-*author (MtM)
-*page count
-*pages
-*date published
-*number of playthroughs
-*popularity
+* author (MtM)
+* page count
+* pages
+* date published
+* number of playthroughs
+* popularity
 
 
 author
-*name
-*email address
-*gamebooks (MtM)
-*bio
+* name
+* email address
+* gamebooks (MtM)
+* bio
 
 page
-*gamebook (MtO)
-*content
-*choices
+* gamebook (MtO)
+* content
+* choices
 
 choice
-*page_from
-*text-content
-*page_to
+* page from
+* text-content
+* page to
 
 User
-*neccesaries for authentication
-*email address
-*current_pages[] (one per gamebook)
-*prev_gamebooks[] (completed, with last page)
+* neccesaries for authentication
+* email address
+* currentpages[] (one per gamebook)
+* prevgamebooks[] (completed, with last page)
 	
