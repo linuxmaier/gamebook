@@ -9,8 +9,6 @@ current data layout
 gamebook
 * author (MtM)
 * synopsis
-* page count
-* pages
 * date published
 * number of playthroughs
 * popularity
@@ -19,13 +17,12 @@ gamebook
 author
 * name
 * email address
-* gamebooks (MtM)
 * bio
 
 page
 * gamebook (MtO)
+* page number
 * content
-* choices
 
 choice
 * page from

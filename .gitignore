@@ -49,5 +49,8 @@ coverage.xml
 *.log
 *.pot
 
+#South migration history in django
+migrations/
+
 # Sphinx documentation
 docs/_build/
