@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 class GameBook(models.Model):
     title = models.CharField(max_length=50)
+    active = models.BooleanField(default=False)
     author = models.ForeignKey('Author', related_name='gamebooks')
     pub_date = models.DateTimeField('date published')
     genre = models.CharField(max_length=50, default='unlisted')
