@@ -13,6 +13,10 @@ class GameBook(models.Model):
     def __unicode__(self):
         return self.title
 
+    def new_page(self, page_text):
+        page_count = self.pages.count()
+        return Page(gamebook=self, number=page_count + 1, content=page_text)
+
 
 class Author(models.Model):
     first_name = models.CharField(max_length=50)
@@ -30,7 +34,7 @@ class Page(models.Model):
     content = models.TextField()
 
     def __unicode__(self):
-        return self.number
+        return str(self.number) + " in " + self.gamebook.title
 
 
 class Choice(models.Model):
