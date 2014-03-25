@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
 class GameBook(models.Model):
     title = models.CharField(max_length=50)
     active = models.BooleanField(default=False)
