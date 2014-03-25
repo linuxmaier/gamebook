@@ -7,7 +7,7 @@ class GameBook(models.Model):
     author = models.ForeignKey('Author', related_name='gamebooks')
     pub_date = models.DateTimeField('date published')
     genre = models.CharField(max_length=50, default='unlisted')
-    synposis = models.TextField()
+    synopsis = models.TextField()
     playthroughs = models.IntegerField()
 
     def __unicode__(self):
@@ -21,7 +21,7 @@ class Author(models.Model):
     bio = models.TextField()
 
     def __unicode__(self):
-        return self.first_name + self.last_name
+        return self.first_name + " " + self.last_name
 
 
 class Page(models.Model):
