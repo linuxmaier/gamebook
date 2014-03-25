@@ -47,3 +47,6 @@ class Choice(models.Model):
 
     def __unicode__(self):
         return "Go to page " + str(self.page_to)
+
+    def get_page_to(self):
+        return self.page_from.gamebook.pages.get(number=self.page_to)
