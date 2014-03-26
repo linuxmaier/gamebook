@@ -33,4 +33,3 @@ admin.site.register(Author)
 admin.site.register(GameBook, GameBookAdmin)
 admin.site.register(Page, PageAdmin)
 admin.site.register(Choice)
-
