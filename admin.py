@@ -10,6 +10,12 @@ class GameBookAdmin(admin.ModelAdmin):
     inlines = [
         PageInline,
     ]
+    fieldsets = [
+        (None,          {'fields': ['title', 'active']}),
+        ('Publication', {'fields': ['author', 'pub_date', 'genre']}),
+        ('Content',     {'fields': ['synopsis', 'playthroughs']}),
+    ]
+    readonly_fields = ('playthroughs',)
 
 
 admin.site.register(Author)
