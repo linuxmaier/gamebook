@@ -51,6 +51,8 @@ coverage.xml
 
 # South migration history in django
 migrations/
+# Vagrant VM folder
+.vagrant/
 
 # Sphinx documentation
 docs/_build/
