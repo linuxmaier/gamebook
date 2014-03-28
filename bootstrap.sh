@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #update package list and upgrade packages
-apt-get update && apt-get upgrade -y
+apt-get update
 
 #install git
 apt-get install -y git
