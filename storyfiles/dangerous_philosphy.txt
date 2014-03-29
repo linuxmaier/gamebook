@@ -27,7 +27,13 @@ Title: Dangerous Philosophy
 Genre: Thriller, Philosophy
 Synopsis: For most people, thought experiments are just games you play in your mind to tease out the edges of some philosophical issue. But the Airmchair Philosopher is tired of letting these crucial distinctions suffer from the vagueries of subjective thought. It's time to get practical.
 
-# Finally we have the main section of content, broke
+# Finally we have the main section of content, broken into pages and
+# choices. Every page needs a choices section, but it can be empty to
+# indicate an end of the book.
+
 **CONTENT**
 
-
+# Each page has a number and content
+*PAGE*
+Number: 1
+Content: You wake 
