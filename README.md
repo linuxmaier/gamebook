@@ -3,8 +3,8 @@ gamebook
 
 django app to serve/run/create gamebooks in the style of Choose Your Own Adventure.
 
-Files
------
+Informational Files
+-------------------
 
 ###License.txt
 
@@ -13,6 +13,9 @@ License file
 ###README.md
 
 This file, right here!
+
+Development Aids
+----------------
 
 ###.gitignore
 
@@ -26,6 +29,9 @@ Included Vagrant config for development. Uses bootstrap.sh to spin up
 ###bootstrap.sh
 
 Used by Vagrantfile to spin up development env in Vagrant VM
+
+Django Files
+------------
 
 ###models.py
 
