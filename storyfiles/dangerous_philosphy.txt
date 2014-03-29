@@ -1,0 +1,33 @@
+AUTHOR
+# Any line prefaced by a '#' character is not interpreted by the importer.
+# They can function as comments.
+
+# The file is broken up into two major sections: metadata and content
+# Metadata is an optional section if using the importing with already
+# existing author and gamebook fields (ie, when just adding pages).
+# Each major sections is delineated by **[name]**, with each 
+# subsection marked with *[name]*. This will help keep error
+# reporting informational, as it will be easier to tell what's
+# missing or incorrectly formatted.
+
+# Establish information about the book
+**METADATA**
+
+# Start with a section declaring Author info
+*AUTHOR*
+First name: Andrew
+Last name: Maier
+Email address: andrew.eric.maier@gmail.com
+Bio: Andrew is the author of the program that runs these 'gamebooks', and thus considered to be by far and away the best author in existence.
+
+# Next section contains book meta-data
+*GAMEBOOK*
+Title: Dangerous Philosophy
+# Genres can be separated by commas if it fits in multiple; like tags
+Genre: Thriller, Philosophy
+Synopsis: For most people, thought experiments are just games you play in your mind to tease out the edges of some philosophical issue. But the Airmchair Philosopher is tired of letting these crucial distinctions suffer from the vagueries of subjective thought. It's time to get practical.
+
+# Finally we have the main section of content, broke
+**CONTENT**
+
+
