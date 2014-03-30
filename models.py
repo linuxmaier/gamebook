@@ -6,7 +6,6 @@ class GameBook(models.Model):
     active = models.BooleanField(default=False)
     author = models.ForeignKey('Author', related_name='gamebooks')
     pub_date = models.DateTimeField('date published')
-    genre = models.CharField(max_length=50, default='unlisted')
     synopsis = models.TextField()
     playthroughs = models.IntegerField(default=0)
 
@@ -50,3 +49,11 @@ class Choice(models.Model):
 
     def get_page_to(self):
         return self.page_from.gamebook.pages.get(number=self.page_to)
+
+
+class Genre(models.Model):
+    books = models.ManyToManyField('GameBook', related_name='genre')
+    name = models.CharField(max_length=25)
+
+    def __unicode__(self):
+        return name
