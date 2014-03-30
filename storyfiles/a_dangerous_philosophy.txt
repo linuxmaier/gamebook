@@ -22,7 +22,7 @@ Bio: Andrew is the author of the program that runs these 'gamebooks', and thus c
 
 # Next section contains book meta-data
 *GAMEBOOK*
-Title: Dangerous Philosophy
+Title: A Dangerous Philosophy
 # Genres can be separated by commas if it fits in multiple; like tags
 Genre: Thriller, Philosophy
 Synopsis: For most people, thought experiments are just games you play in your mind to tease out the edges of some philosophical issue. But the Airmchair Philosopher is tired of letting these crucial distinctions suffer from the vagueries of subjective thought. It's time to get practical.
