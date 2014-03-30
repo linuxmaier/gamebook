@@ -52,8 +52,8 @@ class Choice(models.Model):
 
 
 class Genre(models.Model):
-    books = models.ManyToManyField('GameBook', related_name='genre')
+    books = models.ManyToManyField('GameBook', related_name='genres')
     name = models.CharField(max_length=25)
 
     def __unicode__(self):
-        return name
+        return self.name
