@@ -1,4 +1,3 @@
-AUTHOR
 # Any line prefaced by a '#' character is not interpreted by the importer.
 # They can function as comments.
 
@@ -26,14 +25,52 @@ Title: A Dangerous Philosophy
 # Genres can be separated by commas if it fits in multiple; like tags
 Genre: Thriller, Philosophy
 Synopsis: For most people, thought experiments are just games you play in your mind to tease out the edges of some philosophical issue. But the Airmchair Philosopher is tired of letting these crucial distinctions suffer from the vagueries of subjective thought. It's time to get practical.
-
 # Finally we have the main section of content, broken into pages and
-# choices. Every page needs a choices section, but it can be empty to
-# indicate an end of the book.
+# choices.
 
 **CONTENT**
 
 # Each page has a number and content
 *PAGE*
 Number: 1
-Content: You wake 
+Content: There is nothing but white. Not even the word 'white' seems to quite describe it; it is more the absense of anything, even darkness. It is a blank canvas linen with an infinite thread count. You're not sure whether you woke up here, or were born here, or merely have just been here forever. How could you tell time when there is nothing to be changed by its passage?
+
+The oppressively close absence stifles you. With nothing to latch your eyes onto, you can't be sure that your eyes are even open, or seeing at all. And like your sight, with nothing in the world to stimulate you your thoughts can't hold. How can you be sure you're even thinking at all, when there is nothing to think of? Maybe this is the waiting room before life... or the one after it. You don't remember a life, if you had one. Maybe this is just how it ends for you? Maybe this is what not existing feels like.
+
+You feel a temptation to become the blankness around you. There is a peace in its blandness, and trying to move beyond the stark nothingness around you feels quixotic. After all, what proof have you that you even exist at all?
+
+# Each choice section either defines a choice for the previous page.
+# Each choice has content and a target page number.
+*CHOICE*
+Target: 2
+Content: But, you reason, if there is nothing, and no me... then who is thinking all of this? How can I debate my own existence if I don't, well, exist?
+*CHOICE*
+Target: 3
+Content: The nothingness around you leaves no room. Your fleeting and vague thoughts are abberations against the profound argument for non-existence. Your thoughts are illusions in the void, and you accept that.
+
+*PAGE*
+Number: 2
+Content: That thought sticks, solid and formidable in your mind. After the wispy and insubstatial notions your mind entertained against the nothingness, the firmness of Truth astonishes you. You feel the power of that thought resonate out against the void. Cogito ergo sum: I think therefore I am. All the oppresive power of the Absence around you cannot deny the truth at the heart of that one thought.
+
+As soon as the thought enters your mind, you feel as though existence begins to grow from it. Like a rock in a stream gathering sediment, reality seems to build out from your thought until you realize that all is not nothing after all. You can feel your own heart beat, and feel your skin tingle in the air. There is a reality here, you notice. And the sensation that it was built from your intuition is thrilling.
+
+You see now that all is not white, but just bright light. You instinctively squint, trying to block out the glare of a powerful ceiling lamp that shines unforgivingly down on you. You roll over, blinking blearily against the pain from the brightness. You must have been staring into the light for some time before noticing it.
+
+As the room comes into focus, your earlier profound clarity gives way to confusion. Where are you? Like the room coming into focus, your memories start trickling back in. You don't recognize the bed you were lying on, but you can remember with growing certainty that it is not your own. For one thing, it has paper over it, not sheets. And for another... isn't it vinyl underneath?
+
+A doctor's office. That's what it's like. You stumble off the doctor's bed, placing a hand on the wall to support your unsteady body. Your gaze wheels around the room, taking everything in and hoping for something that would start to make sense.
+
+At first, you don't see any indication of why you'd wake up in a doctor's office. Racking your brain, you can't remember being sick or going for an appointment. Maybe a heart attack in your sleep? Someone called an ambulence? Hopefully the doctor would be in soon to explain. But you can't help but feel like something is not quite right here.
+
+*CHOICE*
+Target: 4
+Content: You decide to wait at least a little while and see what the doctor has to say. After all, he or she will be able to answer your questions better than you could by reading pamplets on washing your hands.
+*CHOICE*
+Target: 5
+Content: There's no harm in looking around, you decide. They shouldn't have left you alone in here if they were worried about you looking around and besides, you have a right to understand what was going on.
+
+*PAGE*
+Number: 3
+Content: You can't argue with the overwhelming nothingness. The evidence around you, or rather the lack thereof, is too powerful. There is nothing anywhere. No hint of a grain of sand or a fleeting thought. No brush of air nor tint in the air. It's not hot or cold, it's just... nothing.
+
+Accepting it is easier than you'd think, really. You just let go and stop trying to fight it. Becoming one with the eternal blank canvas, you feel a sense of peace like going to bed after a long day. As your final thoughts slip from your shadow of a consciousness, you feel a nagging worry that you missed something. But you suppose that it is a comfort that the worry can't last as your identity washes away.
