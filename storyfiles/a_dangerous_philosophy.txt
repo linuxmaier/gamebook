@@ -1,6 +1,6 @@
 # Any line prefaced by a '#' character is not interpreted by the importer.
 # They can function as comments.
-
+#
 # The file is broken up into two major sections: metadata and content
 # Metadata is an optional section if using the importing with already
 # existing author and gamebook fields (ie, when just adding pages).
@@ -8,7 +8,7 @@
 # subsection marked with *[name]*. This will help keep error
 # reporting informational, as it will be easier to tell what's
 # missing or incorrectly formatted.
-
+#
 # Establish information about the book
 **METADATA**
 
